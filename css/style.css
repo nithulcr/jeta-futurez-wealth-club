@@ -1329,7 +1329,12 @@ h5 {
     }
 
 
+.social-proof::before {
 
+    top: 0px;
+    width: 100%;
+
+}
 
 
 }
