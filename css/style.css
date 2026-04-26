@@ -926,12 +926,12 @@ background: linear-gradient(90deg, #A46880, #F9F462);
     text-decoration: underline;
 }
 
-.footer-bottom {
+.last-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     justify-content: center;
-    padding: 40px 0 10px 0;
+    padding: 40px 20px 40px 20px;
     border-top: 1px solid var(--border-color);
 
     font-size: 14px;
@@ -1331,10 +1331,14 @@ h5 {
 
 
     .footer {
-        padding: 50px 0 70px;
+        padding: 50px 0 20px;
     }
 
+.last-footer {
 
+    padding:  25px;
+
+}
 .social-proof::before {
 
     top: 0px;
